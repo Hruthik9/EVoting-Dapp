@@ -1,0 +1,16 @@
+{
+    "type": "couchdb",
+    "url": "http://localhost:5984",
+    "database": "hruthik",
+    "username": "hruthik",
+    "password": "Password123$$",
+    "entities": ["src/entity/**/*.ts"],
+    "synchronize": false,
+    "logging": true,
+    "cli": {
+      "migrationsDir": "src/migration"
+    },
+    "migrations": ["src/migration/**/*.ts"],
+    "subscribers": ["src/subscriber/**/*.ts"]
+  }
+  
